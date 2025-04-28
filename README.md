@@ -23,7 +23,7 @@ cd glaucoma_dr
 
 2. Create and activate Conda environment
 ```bash
-<<<<<<< HEAD
+
 # Create new environment with GPU support
 conda create -n vaneeza python=3.9
 conda activate vaneeza
@@ -37,7 +37,6 @@ conda create -n glaucoma_dr python=3.9
 # Activate environment
 # Windows/Linux/MacOS
 conda activate glaucoma_dr
->>>>>>> 695bc95778fdc8ae66a0f0916e4df104717e84a5
 ```
 
 3. Install dependencies
