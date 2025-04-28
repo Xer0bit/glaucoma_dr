@@ -17,18 +17,27 @@ This project implements a deep learning model for image classification using Ten
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd Vaneeza
+git clone https://github.com/Xer0bit/glaucoma_dr/
+cd glaucoma_dr
 ```
 
 2. Create and activate Conda environment
 ```bash
+<<<<<<< HEAD
 # Create new environment with GPU support
 conda create -n vaneeza python=3.9
 conda activate vaneeza
 
 # Install CUDA toolkit and cuDNN (if using GPU)
 conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+=======
+# Create new environment
+conda create -n glaucoma_dr python=3.9
+
+# Activate environment
+# Windows/Linux/MacOS
+conda activate glaucoma_dr
+>>>>>>> 695bc95778fdc8ae66a0f0916e4df104717e84a5
 ```
 
 3. Install dependencies
@@ -153,8 +162,9 @@ pip freeze > requirements.txt
 
 # Remove environment if needed
 conda deactivate
-conda env remove -n vaneeza
+conda env remove -n glaucoma_dr
 ```
+<<<<<<< HEAD
 
 ### Logging
 - Training progress is logged to console
@@ -168,6 +178,16 @@ conda env remove -n vaneeza
 ```python
 import tensorflow as tf
 print(tf.config.list_physical_devices('GPU'))
+=======
+2. Create fresh environment:
+```bash
+conda create -n glaucoma_dr python=3.9
+conda activate glaucoma_dr
+```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+>>>>>>> 695bc95778fdc8ae66a0f0916e4df104717e84a5
 ```
 
 2. Common fixes:
