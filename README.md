@@ -8,18 +8,18 @@
 
 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd Vaneeza
+git clone https://github.com/Xer0bit/glaucoma_dr/
+cd glaucoma_dr
 ```
 
 2. Create and activate Conda environment
 ```bash
 # Create new environment
-conda create -n vaneeza python=3.9
+conda create -n glaucoma_dr python=3.9
 
 # Activate environment
 # Windows/Linux/MacOS
-conda activate vaneeza
+conda activate glaucoma_dr
 ```
 
 3. Install dependencies
@@ -51,12 +51,12 @@ If you need to recreate the environment:
 1. Remove existing environment:
 ```bash
 conda deactivate
-conda env remove -n vaneeza
+conda env remove -n glaucoma_dr
 ```
 2. Create fresh environment:
 ```bash
-conda create -n vaneeza python=3.8
-conda activate vaneeza
+conda create -n glaucoma_dr python=3.9
+conda activate glaucoma_dr
 ```
 3. Install dependencies:
 ```bash
